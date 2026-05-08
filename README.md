@@ -2,7 +2,7 @@
 
 # Try mip in the browser
 
-Try [mip](https://mip.sh), a package manager for MATLAB, in your browser without installing anything. The page has a [numbl](https://numbl.org) REPL embedded in it, so you can run the example commands as you read.
+This project let's you try [mip](https://mip.sh), a package manager for MATLAB, in your browser without installing anything. The rendered page has a [numbl](https://numbl.org) REPL embedded in it, so you can run the example commands as you read.
 
 ## Live page
 
@@ -11,7 +11,7 @@ Try [mip](https://mip.sh), a package manager for MATLAB, in your browser without
 
 ## Runs on numbl, not MATLAB
 
-numbl is like MATLAB but runs in the browser. mip commands work the same way here as they do in MATLAB. The catch is that a package shipping compiled MEX for Linux, Mac, or Windows but no browser build will install fine and then fail when you actually call its compiled functions. Pure MATLAB packages work, and so do packages that include a `numbl_wasm` build.
+numbl is like MATLAB but runs in the browser. mip commands work the same way in numbl as they do in MATLAB. However, packages requiring os-specific binaries without browser support will not work, although they will install. Pure MATLAB packages work, and so do packages that include a `numbl_wasm` build.
 
 ## How it's built
 
