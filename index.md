@@ -9,7 +9,7 @@
 
 ## Try it
 
-Type the commands below into the REPL. Start by typing "help mip".
+Start by typing "help mip".
 
 <numbl-embed mode="repl">
 <iframe width="100%" height="1200" frameborder="0"></iframe>
